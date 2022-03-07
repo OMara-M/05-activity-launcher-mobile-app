@@ -20,6 +20,8 @@ class MainActivity : AppCompatActivity() {
         val handleClick = { item: ImageData ->
 
         }
+
+        recyclerView.adapter = ImageAdapter(imageData, handleClick)
     }
 
     private fun createDogList(): Array<ImageData> {
