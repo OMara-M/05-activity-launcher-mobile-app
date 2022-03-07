@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ImageActivityLauncher</string>
+    <string name="activity_select">Select Activity</string>
+    <string name="activity_display">Display Activity</string>
 </resources>
