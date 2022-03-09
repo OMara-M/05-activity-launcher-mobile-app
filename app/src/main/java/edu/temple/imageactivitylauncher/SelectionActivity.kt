@@ -1,5 +1,6 @@
 package edu.temple.imageactivitylauncher
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
@@ -7,6 +8,10 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
 class MainActivity : AppCompatActivity() {
+
+    companion object {
+        val ITEM_KEY = "key"
+    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.selection_activity_main)
@@ -18,7 +23,10 @@ class MainActivity : AppCompatActivity() {
         recyclerView.layoutManager = GridLayoutManager(this, 3)
 
         val handleClick = { item: ImageData ->
+            val launchIntent = Intent(this, DisplayActivity::class.java)
+                .putExtra(ITEM_KEY, item)
 
+            startActivity(launchIntent)
         }
 
         recyclerView.adapter = ImageAdapter(imageData, handleClick)
