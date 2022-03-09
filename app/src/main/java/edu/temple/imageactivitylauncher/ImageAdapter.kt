@@ -18,7 +18,7 @@ class ImageAdapter(_imageDataItems: Array<ImageData>, _handleClick: (ImageData) 
         val textView = layout.getChildAt(1) as TextView
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ImageAdapter.ViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val linearLayout = LinearLayout(parent.context)
         with (linearLayout) {
             orientation = LinearLayout.VERTICAL
@@ -29,7 +29,7 @@ class ImageAdapter(_imageDataItems: Array<ImageData>, _handleClick: (ImageData) 
         return ViewHolder(linearLayout)
     }
 
-    override fun onBindViewHolder(holder: ImageAdapter.ViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.imageView.setImageResource(items[position].resourceId)
         holder.textView.text = items[position].description
 
