@@ -1,7 +1,6 @@
 # Image-activity-launcher
 
-| ------------------------------------------------ | <img align="center" src=".\app\src\main\res\mipmap-xxxhdpi\ic_launcher_round.png?raw=true" width="200">  | -------------------------------------------  |
-|---|---|---|
+<img src=".\app\src\main\res\mipmap-xxxhdpi\ic_launcher_round.png?raw=true" width="200">
 
 ## An application that allows a user to select an image from a viewholder in a recyclerview
 
