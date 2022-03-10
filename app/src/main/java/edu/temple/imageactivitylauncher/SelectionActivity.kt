@@ -7,7 +7,7 @@ import android.widget.ImageView
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
-class MainActivity : AppCompatActivity() {
+class SelectionActivity : AppCompatActivity() {
 
     companion object {
         val ITEM_KEY = "key"
