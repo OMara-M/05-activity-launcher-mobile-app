@@ -2,7 +2,7 @@
 
 <img src=".\app\src\main\res\mipmap-xxxhdpi\ic_launcher_round.png?raw=true" width="150">
 
-### An application that allows a user to select an image from a viewhodler in a recylcerview
+### An application that allows a user to select an image from a viewholder in a recyclerview
 
 | Custom App Icon  | The Selection activity  | The Display Activity  |
 |---|---|---|
