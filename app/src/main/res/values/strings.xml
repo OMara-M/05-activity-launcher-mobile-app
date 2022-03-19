@@ -2,5 +2,6 @@
     <string name="app_name">ImageActivityLauncher</string>
     <string name="activity_select">Select Activity</string>
     <string name="activity_display">Display Activity</string>
+    <string name="info">Select an Image</string>
     <string name="button">Return to Gallery</string>
 </resources>
