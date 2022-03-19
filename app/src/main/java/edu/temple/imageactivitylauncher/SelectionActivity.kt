@@ -3,11 +3,10 @@ package edu.temple.imageactivitylauncher
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.ImageView
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
-class MainActivity : AppCompatActivity() {
+class SelectionActivity : AppCompatActivity() {
 
     companion object {
         val ITEM_KEY = "key"
@@ -33,17 +32,18 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun createDogList(): Array<ImageData> {
+        val dogNames = resources.getStringArray(R.array.names)
         return arrayOf(
-            ImageData(R.drawable.d0,"German Shepherd"),
-            ImageData(R.drawable.d1,"Shiba Doge"),
-            ImageData(R.drawable.d2,"Golden Retriever"),
-            ImageData(R.drawable.d3,"Long Hair German Shepherd"),
-            ImageData(R.drawable.d4,"Husky"),
-            ImageData(R.drawable.d5,"Akita"),
-            ImageData(R.drawable.d6,"Welsh Corgi"),
-            ImageData(R.drawable.d7,"Boxer"),
-            ImageData(R.drawable.d8,"Rottweiler"),
-            ImageData(R.drawable.d9,"Bernese Mountain Dog")
+            ImageData(R.drawable.d0,dogNames[0]),
+            ImageData(R.drawable.d1,dogNames[1]),
+            ImageData(R.drawable.d2,dogNames[2]),
+            ImageData(R.drawable.d3,dogNames[3]),
+            ImageData(R.drawable.d4,dogNames[4]),
+            ImageData(R.drawable.d5,dogNames[5]),
+            ImageData(R.drawable.d6,dogNames[6]),
+            ImageData(R.drawable.d7,dogNames[7]),
+            ImageData(R.drawable.d8,dogNames[8]),
+            ImageData(R.drawable.d9,dogNames[9])
         )
     }
 

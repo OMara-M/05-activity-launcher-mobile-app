@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Lanceur d\'activité d\'image</string>
+    <string name="activity_select">Sélectionnez une activité</string>
+    <string name="activity_display">Afficher l\'activité</string>
+    <string name="info">Sélectionnez une image</string>
+    <string name="button">Retour à la galerie</string>
+    <string-array name="names">
+        <item>Berger allemand</item>
+        <item>Doge Shiba</item>
+        <item>Golden Retriever</item>
+        <item>Berger allemand poil long</item>
+        <item>Chien Husky</item>
+        <item>Akita</item>
+        <item>Corgi Gallois</item>
+        <item>le Boxer</item>
+        <item>Rottweiler</item>
+        <item>Chien de montagne bernois</item>
+    </string-array>
+</resources>

@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ImageActivityLauncher">
         <activity
-            android:name=".MainActivity"
+            android:name=".SelectionActivity"
             android:exported="true"
             android:label="@string/activity_select">
             <intent-filter>
